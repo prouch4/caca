@@ -4,7 +4,7 @@ import pasantiaModel from "../models/pasantiaModel.js";
 //** Métodos para el CRUD **/
 
 //Mostrar todos los registros
-export const getAllpasantias = async (req, res) => {
+/*export const getAllpasantias = async (req, res) => {
     try {
         const pasantias = await pasantiaModel.findAll()
         res.json(pasantias)
@@ -59,4 +59,4 @@ export const deletePasantia = async (req, res) => {
     } catch (error) {
         res.json( {message: error.message} )
     }
-}
+}*/

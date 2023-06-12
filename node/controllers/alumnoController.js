@@ -1,7 +1,7 @@
 //importamos el Modelo
-import alumnoModel from "../models/alumnoModel.js";
+/*import alumnoModel from "../models/alumnoModel.js";
 
-//** Métodos para el CRUD **/
+//** Métodos para el CRUD 
 
 //Mostrar todos los registros
 export const getAllalumno = async (req, res) => {
@@ -59,4 +59,4 @@ export const deleteAlumno = async (req, res) => {
     } catch (error) {
         res.json( {message: error.message} )
     }
-}
+}*/

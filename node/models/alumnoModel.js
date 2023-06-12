@@ -1,10 +1,16 @@
 //importamos la conexión a la DB
-import db from "../database/db.js";
+/*import db from "../database/db.js";
 //importamos sequelize
 import { DataTypes } from "sequelize";
 
  const alumnoModel = db.define('alumno', {
-     id_al: { type: DataTypes.INTEGER },
+     id_al: { 
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true
+        
+    },
+    id: {type: DataTypes.INTEGER},
      nom_al: { type: DataTypes.STRING },
      carrera_al: { type: DataTypes.STRING },
      genero_al: { type: DataTypes.STRING },
@@ -14,4 +20,4 @@ import { DataTypes } from "sequelize";
      contrsena_al: { type: DataTypes.STRING },
  })
 
- export default alumnoModel
+ export default alumnoModel*/
